@@ -16,7 +16,7 @@
         app:tabGravity="start"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorHeight="@dimen/w_5"
-        app:tabMode="auto"
+        app:tabMode="scrollable"
         app:tabRippleColor="@color/white"
         app:tabSelectedTextColor="@color/white"
         app:tabTextColor="@color/white" />
