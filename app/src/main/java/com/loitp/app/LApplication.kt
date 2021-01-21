@@ -8,8 +8,8 @@ import com.data.ActivityData
 import com.data.AdmobData
 import com.loitp.R
 
-//TODO id admob
 //done
+//TODO id admob
 
 @LogTag("LApplication")
 class LApplication : BaseApplication() {
