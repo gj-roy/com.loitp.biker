@@ -1,0 +1,7 @@
+<resources>
+    <style name="SplashTheme" parent="DarkTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@drawable/startup</item>
+    </style>
+
+</resources>
