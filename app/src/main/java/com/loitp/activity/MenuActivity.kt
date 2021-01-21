@@ -55,25 +55,10 @@ class MenuActivity : BaseFontActivity() {
     private fun setupViews() {
 
         //setup data
-        listFlickr.add(Flickr("Hài hước", Constants.FLICKR_ID_VN_HAIHUOC))
-        listFlickr.add(Flickr("Độc đáo thú vị", Constants.FLICKR_ID_VN_DOCDAOTHUVI))
-        listFlickr.add(Flickr("Troll", Constants.FLICKR_ID_VN_TROLL))
-        listFlickr.add(Flickr("Truyện bựa", Constants.FLICKR_ID_VN_TRUYENBUA))
-        listFlickr.add(Flickr("Truyện ngắn", Constants.FLICKR_ID_VN_TRUYENNGAN))
-        listFlickr.add(Flickr("Tuổi thơ dữ dội", Constants.FLICKR_ID_VN_TUOITHODUDOI))
-        listFlickr.add(Flickr("Ảnh chế", Constants.FLICKR_ID_VN_ANHCHESACHGIAOKHOA))
-        listFlickr.add(Flickr("Ảnh theo tên", Constants.FLICKR_ID_VN_ANHTHEOTEN))
-        listFlickr.add(Flickr("Màn hình", Constants.FLICKR_ID_VN_FUNNYMANHINH))
-        listFlickr.add(Flickr("Funny thể thao", Constants.FLICKR_ID_VN_FUNNYTHETHAO))
-        listFlickr.add(Flickr("Funny manga", Constants.FLICKR_ID_VN_FUNNYMANGA))
-        listFlickr.add(Flickr("Status vui", Constants.FLICKR_ID_VN_STTVUI))
-        listFlickr.add(Flickr("Status đểu chất", Constants.FLICKR_ID_VN_STTDEUCHAT))
-        listFlickr.add(Flickr("Cosplay", Constants.FLICKR_ID_COSPLAY))
-        listFlickr.add(Flickr("Hại não", Constants.FLICKR_ID_HAINAO))
-        listFlickr.add(Flickr("Bạn có biết", Constants.FLICKR_ID_VN_BANCOBIET))
-        listFlickr.add(Flickr("Cung hoàng đạo", Constants.FLICKR_ID_VN_CUNGHOANGDAOFUNTFACT))
-        listFlickr.add(Flickr("Hehehoro", Constants.FLICKR_ID_VN_CUNGHOANGDAOHEHEHORO))
-        listFlickr.add(Flickr("Devvui", Constants.FLICKR_ID_VN_DEVVUI))
+        listFlickr.add(Flickr("Car", Constants.FLICKR_ID_CAR))
+        listFlickr.add(Flickr("Motorbike", Constants.FLICKR_ID_BIKE))
+        listFlickr.add(Flickr("Technology", Constants.FLICKR_ID_TECHNOLOGY))
+        listFlickr.add(Flickr("City", Constants.FLICKR_ID_CITY))
 
         listFlickr.forEach {
             tabLayout.addTab(tabLayout.newTab().setText(it.title))
