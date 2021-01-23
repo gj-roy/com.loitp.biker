@@ -11,8 +11,8 @@ android {
         applicationId "com.loitp.biker"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 2
-        versionName "1.0.2"
+        versionCode 1
+        versionName "1.0.1"
         multiDexEnabled true
 
         renderscriptTargetApi 19
@@ -31,7 +31,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("keystorehaivl.jks")
+            storeFile file("keystore.jks")
             storePassword "04021993"
             keyAlias "loi"
             keyPassword "04021993"
