@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.loitp.haivl",
+  "applicationId": "com.loitp.biker",
   "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 2,
-      "versionName": "1.0.2",
-      "outputFile": "com.loitp.haivl_release_1.0.2_2.apk"
+      "versionCode": 1,
+      "versionName": "1.0.1",
+      "outputFile": "com.loitp.biker_release_1.0.1_1.apk"
     }
   ]
 }
