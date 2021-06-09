@@ -16,7 +16,7 @@ import com.loitp.R
 import com.loitp.model.Flickr
 import kotlinx.android.synthetic.main.activity_menu.*
 
-@LogTag("loitppMenuActivity")
+@LogTag("MenuActivity")
 @IsFullScreen(false)
 class MenuActivity : BaseFontActivity() {
 
@@ -135,10 +135,10 @@ class MenuActivity : BaseFontActivity() {
                         tabLayout?.let { tl ->
                             if (isScrollDown) {
 //                                LScreenUtil.toggleFullscreen(activity = this, isFullScreen = true)
-                                tl.visibility = View.GONE
+//                                tl.visibility = View.GONE
                             } else {
 //                                LScreenUtil.toggleFullscreen(activity = this, isFullScreen = false)
-                                tl.visibility = View.VISIBLE
+//                                tl.visibility = View.VISIBLE
                             }
                         }
                     }, 300)
