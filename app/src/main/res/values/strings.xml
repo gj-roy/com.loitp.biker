@@ -4,10 +4,10 @@
     <!--    https://drive.google.com/drive/starred-->
     <string name="link_gg_drive"><![CDATA[https://drive.google.com/uc?export=download&id=1femuL17MUTz7t0yqUkMWB5yCea1W6kqI]]></string><!--no need to edit this-->
 
-    <!--    https://apps.admob.com/v2/apps/5250416939/overview-->
-    <string name="str_b">ca-app-pub-3165963943681013/7304900481</string>
-    <string name="str_f">ca-app-pub-3165963943681013/2321001264</string>
-    <string name="str_app_id">ca-app-pub-3165963943681013~5250416939</string>
+<!--    TODO ad-->
+    <string name="str_b">a</string>
+    <string name="str_f">b</string>
+    <string name="str_app_id">c</string>
 
     <string name="check_ur_connection">Please check your connection</string>
     <string name="warning">Warning</string>
